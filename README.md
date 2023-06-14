@@ -4,11 +4,17 @@
 
 ## Sprint 3 
                  Arreglar gantt
-                 Github - Project 
                  Todas las tablas creadas (Normalizado)
-                 Relaciones entre tablas 
+                 Arreglar MR
+                 Arreglar DBA 
                  Datos de prueba
-                 Casos de prueba BD (Querys)
+                 Casos de prueba BD (Querys) SPRINT 2
+                 Casos de prueba BD (Querys) SPRINT 3
+                 Probar casos sprint 2
+                 Pantalla login 
+                 Hostearlo 
+                 Login 
+                 Registro 
 
 # PRSC-7-I
 Grupos 2: Eguia, Contreras, Ocanto, Napoli
