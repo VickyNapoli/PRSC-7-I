@@ -16,11 +16,9 @@ CREATE TABLE Usuario(id_usuario INT(5) PRIMARY KEY,
     FOREIGN KEY (email) REFERENCES Login(email),
     FOREIGN KEY (lista_favoritos) REFERENCES Favoritos(lista_favoritos));
 
-CREATE TABLE Favoritos (lista_favoritos VARCHAR(250) PRIMARY KEY, 
-    id_usuario INT(5), 
+CREATE TABLE Favoritos (Iddelfavorito INT(5) PRIMARY KEY, 
     id_publicacion INT(5), 
     cantidad INT(2),
-    FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario),
     FOREIGN KEY (id_publicacion) REFERENCES Publicacion(id_publicacion));
 
 CREATE TABLE Comentarios (id_comentario INT(5) PRIMARY KEY, 
