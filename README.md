@@ -1,6 +1,6 @@
 # Proximas fechas importantes 
   
-                 20 Junio
+                 14 Julio
 
 ## Sprint 3 
                  Arreglar gantt
