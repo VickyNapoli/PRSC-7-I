@@ -4,14 +4,14 @@
 
 ## Sprint 3 
                  Arreglar gantt
-                 Todas las tablas creadas (Normalizado)
-                 Arreglar MR
-                 Arreglar DBA 
+                 Todas las tablas creadas (Normalizado) -
+                 Arreglar MR -
+                 Arreglar DBA -
                  Datos de prueba
                  Casos de prueba BD (Querys) SPRINT 2
                  Casos de prueba BD (Querys) SPRINT 3
                  Probar casos sprint 2
-                 Pantalla login 
+                 Pantalla login - 
                  Hostearlo 
                  Login 
                  Registro 
