@@ -1,5 +1,5 @@
 CREATE TABLE Login (nombre_usuario VARCHAR(80) PRIMARY KEY,  
-    email VARCHAR(80) PRIMARY KEY, 
+    email VARCHAR(30) PRIMARY KEY, 
     contraseña VARCHAR(70));
 
 CREATE TABLE Usuario(id_usuario INT(5) PRIMARY KEY, 
