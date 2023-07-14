@@ -41,6 +41,6 @@ CREATE TABLE Inmueble (id_inmueble INT PRIMARY KEY,
     url_pago VARCHAR(255),
     FOREIGN KEY (id_publicacion) REFERENCES Publicacion(id_publicacion));
 
-ALTER TABLE Comentarios
+ALTER TABLE Favoritos
 ADD CONSTRAINT id_publicacion
 FOREIGN KEY id_publicacion REFERENCES Publicacion(id_publicacion);
