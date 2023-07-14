@@ -46,8 +46,8 @@ FOREIGN KEY (id_inmueble) REFERENCES Inmueble(id_inmueble);
 
 ALTER TABLE Favoritos
 ADD CONSTRAINT id_publicacion
-FOREIGN KEY id_publicacion REFERENCES Publicacion(id_publicacion);
+FOREIGN KEY (id_publicacion) REFERENCES Publicacion(id_publicacion);
 
 ALTER TABLE Comentarios
 ADD CONSTRAINT id_publicacion
-FOREIGN KEY id_publicacion REFERENCES Publicacion(id_publicacion);
+FOREIGN KEY (id_publicacion) REFERENCES Publicacion(id_publicacion);
