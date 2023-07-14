@@ -11,7 +11,7 @@ CREATE TABLE Usuario(id_usuario INT PRIMARY KEY,
     direccion VARCHAR(100),
     FOREIGN KEY (email) REFERENCES Login(email));
 
-CREATE TABLE Favoritos (Iddelfavorito INT NOT NULL AUTO_INCREMENT, 
+CREATE TABLE Favoritos (Iddelfavorito INT NOT NULL AUTO_INCREMENT,
     id_publicacion INT,
     PRIMARY KEY (Iddelfavorito));
 
@@ -42,5 +42,9 @@ CREATE TABLE Inmueble (id_inmueble INT PRIMARY KEY,
     FOREIGN KEY (id_publicacion) REFERENCES Publicacion(id_publicacion));
 
 ALTER TABLE Favoritos
+ADD CONSTRAINT id_publicacion
+FOREIGN KEY id_publicacion REFERENCES Publicacion(id_publicacion);
+
+ALTER TABLE Comentarios
 ADD CONSTRAINT id_publicacion
 FOREIGN KEY id_publicacion REFERENCES Publicacion(id_publicacion);
