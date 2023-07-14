@@ -7,7 +7,6 @@ CREATE TABLE Login(email VARCHAR(30) PRIMARY KEY,
 CREATE TABLE Usuario(id_usuario INT(5) PRIMARY KEY, 
     nombreyapellido VARCHAR(80), 
     email VARCHAR(30),
-    nombre VARCHAR(40), 
     telefono INT(12), 
     direccion VARCHAR(100),
     FOREIGN KEY (email) REFERENCES Login(email));
