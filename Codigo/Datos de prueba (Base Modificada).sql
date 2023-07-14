@@ -1,35 +1,35 @@
 --Datos Login
 
-INSERT INTO Login (nombre_usuario, email, contraseña)
-VALUES ("cam.ocanto", "camiiocanto05@gmail.com", "camii15/03");
+INSERT INTO Login (email, contraseña)
+VALUES ("camiiocanto05@gmail.com", "camii15/03");
 
-INSERT INTO Login (nombre_usuario, email, contraseña)
-VALUES ("tomas_eguiia", "tomaseguia0@gmail.com", "tomas46199870");
+INSERT INTO Login (email, contraseña)
+VALUES ("tomaseguia0@gmail.com", "tomas46199870");
 
-INSERT iNTO Login (nombre_usuario, email, contraseña )
-VALUES ("vickynapoli", "victoriaNapoli@gmail.com", "vickyyy123");
+INSERT iNTO Login (email, contraseña )
+VALUES ("victoriaNapoli@gmail.com", "vickyyy123");
 
-INSERT iNTO Login (nombre_usuario, email, contraseña )
-VALUES ("gaspar.rufini", "gaspar_xeneize2004@gmail.com", "messiteamo");
+INSERT iNTO Login (email, contraseña )
+VALUES ("gaspar_xeneize2004@gmail.com", "messiteamo");
 
-INSERT INTO Login (nombre_usuario, email, contraseña)
-VALUES ("oriicxntreras", "orianacontrerass@gmail.com", "46104880");
+INSERT INTO Login (email, contraseña)
+VALUES ("orianacontrerass@gmail.com", "46104880");
 
 --Datos USUARIO
-INSERT INTO Usuario (id_usuario, nombre_usuario, email, noombre, apellido, dni, direccion)
-VALUES ("00001", "cam.ocanto" "camiiocanto05@gmail.com", "camila", "ocanto", "46421422", "calle 19 3122");
+INSERT INTO Usuario (id_usuario, nombre_apellido, email, telefono, direccion)
+VALUES ("00001", "camila ocanto" "camiiocanto05@gmail.com", "1178401239", "calle 19 3122");
 
 INSERT INTO Usuario (id_usuario, nombre_usuario, email, noombre, apellido, dni, direccion, Lista_Favoritos)
-VALUES ("00002", "tomas_eguiia" "tomaseguia0@gmail.com", "tomas", "eguia", "46199870", "calle 25 bis 3194");
+VALUES ("00002", "tomas eguia" "tomaseguia0@gmail.com", "1168492709", "calle 25 bis 3194");
 
 INSERT INTO Usuario (id_usuario, nombre_usuario, email, noombre, apellido, dni, direccion, Lista_Favoritos)
-VALUES ("00003", "vickynapoli" "victoriaNapoli@gmail.com", "victoria", "napoli", "46621982", "calle 140 1800");
+VALUES ("00003", "victoria napoli" "victoriaNapoli@gmail.com", "1139204512", "calle 140 1800");
 
 INSERT INTO Usuario (id_usuario, nombre_usuario, email, noombre, apellido, dni, direccion, Lista_Favoritos)
-VALUES ("00004", "gaspar.rufini" "gaspar_xeneize2004@gmail.com", "gaspar", "rufini", "461230426", "calle 20 3187");
+VALUES ("00004", "gaspar rufini" "gaspar_xeneize2004@gmail.com", "1176428909", "calle 20 3187");
 
 INSERT INTO Usuario (id_usuario, nombre_usuario, email, noombre, apellido, dni, direccion, Lista_Favoritos)
-VALUES ("00005", "oriicxntreras" "orianacontrerass@gmail.com", "oriana", "contreras", "46391974", "calle 140 1920");
+VALUES ("00005", "oriana contreras" "orianacontrerass@gmail.com", "1122564037", "calle 140 1920");
 
 --Datos Favoritos
 INSERT INTO (id_favorito, id_publicacion)
