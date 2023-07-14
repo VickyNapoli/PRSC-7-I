@@ -4,11 +4,12 @@ USE HospedaMe;
 CREATE TABLE Login(email VARCHAR(30) PRIMARY KEY, 
     contraseña VARCHAR(70));
 
-CREATE TABLE Usuario(id_usuario INT PRIMARY KEY, 
+CREATE TABLE Usuario(id_usuario INT(10) NOT NULL AUTO_INCREMENT, 
     nombreyapellido VARCHAR(80), 
     email VARCHAR(30),
     telefono INT, 
     direccion VARCHAR(100),
+    PRIMARY KEY (id_usuario),
     FOREIGN KEY (email) REFERENCES Login(email));
 
 CREATE TABLE Favoritos (Iddelfavorito INT NOT NULL AUTO_INCREMENT,
