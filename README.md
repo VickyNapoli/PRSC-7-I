@@ -3,7 +3,7 @@
                  Fin del 4to sprint - 29 de agosto 
 
 ## Sprint 3 
-                 Pagina principal (Visual y funcional)
+                 Pagina principal (Visual)
                  Arreglo de errores en login y registro (php)
                  Areglo en la base de datos (querys, carga de datos y estructura)
 
