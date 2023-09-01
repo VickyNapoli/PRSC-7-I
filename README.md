@@ -1,8 +1,11 @@
 # Proximas fechas importantes 
   
+26/09 SPRINT
+- Pantalla formulario
+- PHP de los filtros
+- Empezar PHP del formulario
                  
 
-## Sprint 3 
                 
 
 # PRSC-7-I
