@@ -1,9 +1,10 @@
 # Proximas fechas importantes 
   
 26/09 SPRINT
-- Pantalla formulario
+- Pantalla formulario (visual)
 - PHP de los filtros
 - Empezar PHP del formulario
+- Pantalla de configuracion de usuario (visual)
                  
 
                 
