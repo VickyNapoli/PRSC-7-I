@@ -2,9 +2,9 @@
   
 26/09 SPRINT
 - Pantalla formulario (visual)
-- PHP de los filtros
-- Empezar PHP del formulario
-- Pantalla de configuracion de usuario (visual)
+- Empezar PHP de los filtros
+- PHP del formulario
+- Pantalla de configuracion de usuario (visual, una parte del php)
                  
 
                 
