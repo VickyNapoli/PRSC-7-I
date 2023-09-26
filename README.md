@@ -2,8 +2,9 @@
   
 26/09 SPRINT
 - Pantalla formulario (visual)
-- Parte PHP del formulario para subir inmueblews
+- Parte PHP del formulario para subir inmuebles
 - Pantalla de configuracion de usuario (visual, una parte del php)
+- Arreglar la sesion de los usuarios
                  
 
                 
