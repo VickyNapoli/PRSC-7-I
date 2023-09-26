@@ -2,8 +2,7 @@
   
 26/09 SPRINT
 - Pantalla formulario (visual)
-- Empezar PHP de los filtros
-- PHP del formulario
+- Parte PHP del formulario para subir inmueblews
 - Pantalla de configuracion de usuario (visual, una parte del php)
                  
 
