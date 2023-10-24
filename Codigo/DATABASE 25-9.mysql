@@ -12,21 +12,13 @@ CREATE TABLE Usuarios(email VARCHAR(80) PRIMARY KEY NOT NULL,
     telefono INT, 
     direccion VARCHAR(100));
 
-CREATE TABLE Favoritos (favoritos_id INT(10) NOT NULL AUTO_INCREMENT,
-    publicacion_id INT,
-    PRIMARY KEY (favoritos_id));
-
-CREATE TABLE Comentarios (comentario_id INT(10) NOT NULL AUTO_INCREMENT, 
-    publicacion_id INT(10), 
-    user_id INT(10), 
-    texto VARCHAR(255));
-
 CREATE TABLE Publicacion (publicacion_id INT(10) NOT NULL AUTO_INCREMENT, 
     user_id INT(10), 
     inmueble_id INT(10));
 
-CREATE TABLE Inmueble (id_inmueble INT(10) NOT NULL AUTO_INCREMENT, 
-    id_publicacion INT(10), 
+CREATE TABLE Inmueble (inmueble_id INT(10) NOT NULL AUTO_INCREMENT, 
+    publicacion_id INT(10), 
+    user_id INT(10);
     direccion VARCHAR(100), 
     precio INT(12), 
     descripcion VARCHAR(250), 
@@ -37,19 +29,15 @@ CREATE TABLE Inmueble (id_inmueble INT(10) NOT NULL AUTO_INCREMENT,
     cantidad_metros INT(10),
     url_pago VARCHAR(255));
 
+CREATE TABLE Favoritos (favoritos_id INT(10) NOT NULL AUTO_INCREMENT,
+    publicacion_id INT,
+    PRIMARY KEY (favoritos_id));
+
 ALTER TABLE Usuarios
 FOREIGN KEY (user_id) REFERENCES Login(user_id);
 
-
-ALTER TABLE Comentarios
-FOREIGN KEY (user_id) REFERENCES Login(user_id));
-ALTER TABLE Comentarios
-FOREIGN KEY (publicacion_id) REFERENCES Publicacion(publicacion_id)
-
-
 ALTER TABLE Favoritos
 FOREIGN KEY (id_publicacion) REFERENCES Publicacion(id_publicacion);
-
 
 ALTER TABLE Publicacion
 FOREIGN KEY (user_id) REFERENCES Login(user_id);
@@ -60,3 +48,4 @@ ALTER TABLE Inmueble
 FOREIGN KEY (publicacion_id) REFERENCES Publicacion(publicacion_id);
 ALTER TABLE Inmueble
 FOREIGN KEY (user_id) REFERENCES Login(user_id);
+
