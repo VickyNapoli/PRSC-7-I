@@ -7,7 +7,7 @@
 - Arreglar la sesion de los usuarios
                  
 
-LINK PAGINA: https://hospedamegrupo2.000webhostapp.com/
+LINK PAGINA: https://grupo2hospedame.000webhostapp.com/
                 
 
 # PRSC-7-I
